@@ -1,18 +1,18 @@
 export default function About() {
-	return (
-		<section id="about" className="space-y-6">
-			<h3 className="text-sm uppercase tracking-wider font-medium text-zinc-500 dark:text-zinc-300">About</h3>
-			<p className="text-zinc-800 dark:text-zinc-200">
-				Ruben Amorim adalah pelatih sepak bola asal Portugal yang kini menukangi Manchester United.
-				Dikenal dengan filosofi permainan menyerang dan pressing intensitas tinggi, Amorim membawa pendekatan taktik modern
-				yang berakar dari pengalamannya bersama Sporting CP. Ia menekankan kerja sama tim, disiplin posisi,
-				serta pengembangan pemain muda dalam setiap proyeknya.
-			</p>
-			<p className="text-zinc-800 dark:text-zinc-200">
-				Saat ini, Amorim fokus membangun kembali identitas permainan Manchester United dengan gaya dinamis,
-				cepat dalam transisi, dan berorientasi pada penguasaan bola. Tujuannya jelas mengembalikan kejayaan klub
-				di panggung domestik maupun Eropa.
-			</p>
-		</section>
-	);
+  return (
+    <section id="about" className="bg-[#FFFDF9] dark:bg-[#2C2420] border border-[#EAD8C8] dark:border-[#3A2E28] rounded-2xl shadow-sm p-8 space-y-5 transition-all duration-500">
+      <h3 className="text-[#A47551] dark:text-[#CDAA7D] uppercase text-sm font-semibold tracking-wider">
+        Tentang Saya
+      </h3>
+      <p className="text-[#4B3B2A] dark:text-[#EAD8C8] leading-relaxed">
+        Halo, saya <strong>Ayu Wulanadari</strong>, mahasiswa STITEK Bontang yang gemar menciptakan proyek web interaktif dan portofolio digital.
+        Saya suka memadukan kreativitas desain dengan fungsionalitas teknologi untuk menciptakan pengalaman pengguna yang menyenangkan.
+      </p>
+      <p className="text-[#4B3B2A] dark:text-[#EAD8C8] leading-relaxed">
+        Beberapa proyek saya antara lain <strong>Timecapsule</strong> — platform digital untuk menyimpan puisi, ilustrasi, dan kenangan pribadi —
+        serta <strong>Cacao d’Ayu</strong>, website e-commerce produk cokelat artisan.
+        Proyek-proyek ini mencerminkan minat saya dalam merancang solusi digital yang hangat, personal, dan bermakna.
+      </p>
+    </section>
+  );
 }
