@@ -2,26 +2,24 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className=" flex gap-x-8 flex-col md:flex-row">
+    <header className="flex flex-col md:flex-row items-center gap-8 bg-[#FFF8F2] dark:bg-[#1F1A17] p-8 rounded-3xl shadow-sm border border-[#EBD9C7] dark:border-[#3A2E28] transition-all duration-500">
       <Image
-        className="size-[100px] rounded-full"
-        src="/amorim.jpg"
-        alt="picture of author"
-        width={100}
-        height={100}
+        className="rounded-full shadow-md"
+        src="/image.jpg"
+        alt="Foto Ayu Wulanadari"
+        width={120}
+        height={120}
       />
       <div>
-        <h1 className="text-3xl font-medium text-zinc-900 dark:text-zinc-50 mb-1.5">
-          Ruben Amorim
+        <h1 className="text-3xl font-semibold text-[#4B3B2A] dark:text-[#EAD8C8] mb-1">
+          Ayu Wulanadari
         </h1>
-        <h2 className="text-lg font-light text-zinc-500 dark:text-zinc-300">
-          Pelatih Manchester United dan mantan pemain sepak bola
+        <h2 className="text-lg text-[#6B4F3B] dark:text-[#CDAA7D] font-light leading-relaxed">
+          Mahasiswa Informatika yang mencintai desain interaktif dan keindahan dalam kode.
         </h2>
-        <div className="flex gap-x-6 mt-6 flex-col md:flex-row gap-y-2">
-          <span className="text-zinc-500 dark:text-zinc-300">
-            Manchester United FC
-          </span>
-        </div>
+        <p className="mt-4 text-sm text-[#A47551] dark:text-[#CDAA7D]">
+          Sekolah Tinggi Teknologi (STITEK) Bontang
+        </p>
       </div>
     </header>
   );
